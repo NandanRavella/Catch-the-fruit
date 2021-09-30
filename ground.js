@@ -17,7 +17,7 @@ class Ground
     push();
     rectMode(CENTER);
     noStroke();
-    fill(148,127,146);
+    fill("#7cfc00");
     rect(pos.x,pos.y, this.w, this.h);
     pop();
   }
